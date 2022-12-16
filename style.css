@@ -14,6 +14,9 @@
     --fw-regular: 400;
     --fw-light:300;
 
+
+    --clr-primary-change: rgba(0, 255, 247, 0.5);
+
 }
 
 
@@ -66,7 +69,7 @@ body{
    
 
     content: url(/images/icon-view.svg);
-    background:var(--clr-primary-cyan);
+    background:var(--clr-primary-change);
     position: absolute;
     inset: 0;
     display: flex;
@@ -131,14 +134,14 @@ align-items: center;
 
     display: flex;
     align-items: center;
-    font-weight: var(--fw-bold);
+    
 
 }
 
 
 .card__price{ color: var(--clr-primary-cyan);}
 .card__icon{margin-right: 6px;}
-.card__countdown{color: var(--clr-primary-cyan);}
+.card__countdown{color: var(--clr-primary-sblue); font-weight: var(--fw-r);}
 
 
 .card__footer{
@@ -175,4 +178,20 @@ align-items: center;
 .card__author-name a:hover{
 
     color:var(--clr-primary-cyan)
+}
+
+
+.card__title-class{
+
+
+    text-decoration: none;
+
+}
+
+.countdown__spawn{
+
+
+    color: var(--clr-primary-sblue);
+    
+
 }
